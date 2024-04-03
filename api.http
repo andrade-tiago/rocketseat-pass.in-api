@@ -1,0 +1,27 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+# Corpo da requisição
+{
+    "title": "Novo evento 2",
+    "details": null,
+    "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/3a123da9-e45b-46d0-ab8f-1d993a040e11/attendees
+Content-Type: application/json
+
+{
+    "name": "Tiago Andrade",
+    "email": "tiagoandradedejoao@gmail.com"
+}
+
+###
+
+GET http://localhost:3333/events/80090f4e-41ae-438a-9f2c-b6f5bc9e08c6
+
+###
+
+GET http://localhost:3333/attendee/5/badge
