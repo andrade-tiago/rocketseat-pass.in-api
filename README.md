@@ -1,6 +1,6 @@
 # pass.in
 
-<img src="./assets/icon.png" height="150" alt="Logo da aplicação" />
+<img src="./assets/logo.svg" height="150" alt="Logo da aplicação" />
 
 O pass.in é uma aplicação de gestão de participantes em eventos presenciais.
 
