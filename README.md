@@ -2,7 +2,7 @@
 
 <img src="./assets/logo.svg" height="150" alt="Logo da aplicação" />
 
-O pass.in é uma aplicação de gestão de participantes em eventos presenciais.
+Este é o back-end do pass.in, uma aplicação de gestão de participantes em eventos presenciais.
 
 A ferramenta permite que o organizador cadastre um evento e abra uma página pública de inscrição.
 
@@ -30,3 +30,7 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 ### Requisitos não-funcionais
 
  - [x] O check-in no evento será realizado através de um QRCode.
+
+## Documentação da API (Swagger)
+
+Você pode acessar a documentação da API aqui: <[https://rocketseat-pass-in-api.onrender.com/docs](https://rocketseat-pass-in-api.onrender.com/docs)>.
