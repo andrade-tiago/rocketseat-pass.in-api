@@ -4,32 +4,19 @@
 
 Este é o back-end do pass.in, uma aplicação de gestão de participantes em eventos presenciais.
 
-A ferramenta permite que o organizador cadastre um evento e abra uma página pública de inscrição.
+A API permite:
+- [x] cadastrar um evento;
+- [x] inscrever um novo participante em um evento;
+- [x] obter os detalhes de um evento cadastrado;
+- [x] obter os dados da inscrição de um participante em um evento;
+- [x] obter os dados de todos os participantes inscritos em um evento; e
+- [x] realizar o check-in de um participante.
 
-Os participantes inscritos podem emitir uma credencial para check-in no dia do evento.
+## Regras de negócio
 
-O sistema fará um scan da credencial do participante para permitir a entrada no evento.
-
-## Requisitos
-
-### Requisitos funcionais
-
- - [x] O organizador deve poder cadastrar um novo evento;
- - [x] O organizador deve poder visualizar dados de um evento;
- - [x] O organizador deve poser visualizar a lista de participantes;
- - [x] O participante deve poder se inscrever em um evento;
- - [x] O participante deve poder visualizar seu crachá de inscrição;
- - [x] O participante deve poder realizar check-in no evento.
-
-### Regras de negócio
-
- - [x] O participante só pode se inscrever em um evento uma única vez;
- - [x] O participante só pode se inscrever em eventos com vagas disponíveis;
- - [x] O participante só pode realizar check-in em um evento uma única vez.
-
-### Requisitos não-funcionais
-
- - [x] O check-in no evento será realizado através de um QRCode.
+- [x] Um participante só pode ser inscrito em um evento uma única vez;
+- [x] Um participante só pode ser inscrito em um evento com vagas disponíveis;
+- [x] Só é possível realizar o check-in de um participante em um evento uma única vez.
 
 ## Documentação da API (Swagger)
 
