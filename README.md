@@ -20,4 +20,4 @@ A API permite:
 
 ## Documentação da API (Swagger)
 
-Você pode acessar a documentação da API aqui: <[https://rocketseat-pass-in-api.onrender.com/docs](https://rocketseat-pass-in-api.onrender.com/docs)>.
+Você pode encontrar o link para a documentação da API nos detalhes do repositório.
